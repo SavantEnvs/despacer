@@ -1,0 +1,8 @@
+project: savantenvs/despacer
+target: despacer-buggy-mhh-run-5
+
+# origin: https://app.mayhem.security/mayhemheroes/despacer/despacer/5
+
+cmds:
+  - cmd: /mayhem/fuzz_despacer
+    libfuzzer: true
